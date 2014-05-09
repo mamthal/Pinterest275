@@ -1,0 +1,13 @@
+
+
+import json
+
+mydict = {}
+myscores = {}
+myscores["phy"] = 30
+myscores["chem"] = 40
+myscores["bio"] = 50
+mydict["name"] = "Anand"
+mydict["age"] = 29
+mydict["scores"] = myscores
+print json.dumps(mydict, indent = 4)
